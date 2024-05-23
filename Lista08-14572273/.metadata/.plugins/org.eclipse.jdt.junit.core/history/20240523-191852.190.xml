@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestFatorialWindow" project="Lista08-14572273-NUSP2" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="ex2.TestFatorialWindow" time="3.235" displayname="TestFatorialWindow" uniqueid="[engine:junit-jupiter]/[class:ex2.TestFatorialWindow]">
+    <testcase name="test5Fat" classname="ex2.TestFatorialWindow" time="1.05" displayname="test5Fat()" uniqueid="[engine:junit-jupiter]/[class:ex2.TestFatorialWindow]/[method:test5Fat()]"/>
+    <testcase name="testInvalid" classname="ex2.TestFatorialWindow" time="1.09" displayname="testInvalid()" uniqueid="[engine:junit-jupiter]/[class:ex2.TestFatorialWindow]/[method:testInvalid()]"/>
+    <testcase name="testNegative" classname="ex2.TestFatorialWindow" time="1.093" displayname="testNegative()" uniqueid="[engine:junit-jupiter]/[class:ex2.TestFatorialWindow]/[method:testNegative()]"/>
+  </testsuite>
+</testrun>

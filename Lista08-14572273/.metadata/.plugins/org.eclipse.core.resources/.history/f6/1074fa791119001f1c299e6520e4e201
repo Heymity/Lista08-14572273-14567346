@@ -1,0 +1,37 @@
+package ex3;
+
+import java.util.*;
+
+public class MulticonjuntoArrayList<T> extends MulticonjuntoAbstrato<T> {
+
+	private ArrayList<Wrapper> list;
+	
+	@Override
+	public Iterator<MulticonjuntoAbstrato<T>.Wrapper> iterator() {
+		return list.iterator();
+	}
+
+	@Override
+	public int getMultiplicity(T element) {
+		return list.get(list.indexOf(new Wrapper(element, 0))).multiplicity;
+	}
+
+	@Override
+	public boolean add(T e) {
+	}
+
+	@Override
+	public boolean add(T e, int m) {
+		int i = list.indexOf(new Wrapper(e, 0));
+		if (i > 0) list.get(i).multiplicity += m;
+		
+		return list.add(new Wrapper(e, m))
+	}
+
+	@Override
+	public boolean addAll(MulticonjuntoAbstrato<T> c) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

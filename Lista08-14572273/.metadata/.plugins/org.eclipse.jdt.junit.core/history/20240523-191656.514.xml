@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestFatorialWindow" project="Lista08-14572273-NUSP2" tests="1" started="0" failures="0" errors="1" ignored="0">
+  <testsuite name="ex2.TestFatorialWindow" incomplete="true" displayname="TestFatorialWindow" uniqueid="[engine:junit-jupiter]/[class:ex2.TestFatorialWindow]">
+    <error>java.lang.IllegalAccessException: class ex2.TestFatorialWindow cannot access a member of class ex1.FatorialInterface with modifiers "private"&#13;
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674)&#13;
+	at java.base/java.lang.reflect.Field.checkAccess(Field.java:1102)&#13;
+	at java.base/java.lang.reflect.Field.get(Field.java:423)&#13;
+	at ex2.TestFatorialWindow.setup(TestFatorialWindow.java:30)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    <testcase name="test" classname="ex2.TestFatorialWindow" incomplete="true" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:ex2.TestFatorialWindow]/[method:test()]"/>
+  </testsuite>
+</testrun>

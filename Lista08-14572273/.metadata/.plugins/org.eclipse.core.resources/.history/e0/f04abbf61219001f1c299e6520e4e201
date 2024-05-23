@@ -1,0 +1,9 @@
+package ex3;
+
+
+public class MulticonjuntoTest {
+	@Test
+	public void test() {
+		
+	}
+}

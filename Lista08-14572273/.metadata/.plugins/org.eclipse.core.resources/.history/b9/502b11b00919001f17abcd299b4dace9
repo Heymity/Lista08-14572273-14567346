@@ -1,0 +1,9 @@
+package ex3;
+import java.util.*;
+
+public class MulticonjuntoSet<T> extends HashSet<T> {
+	@Override
+	public boolean add(T e) {
+		return super.add(e);
+    }
+}

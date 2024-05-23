@@ -1,0 +1,26 @@
+package ex3;
+
+import static org.junit.Assert.*;
+
+import java.util.stream.Stream;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+public class MulticonjuntoTest {
+	@ParameterizedTest
+	@MethodSource("multiconjuntoProvider")
+	public void test(MulticonjuntoAbstrato<int> c) {
+		return;
+	}
+	
+	private static Stream<MulticonjuntoAbstrato<int>> multiconjuntoProvider() {
+	    return Stream.of(
+	      Arguments.of(new Quadrado(5, "Azul"), 20),
+	      Arguments.of(new Retangulo(5, 4, "Azul"), 18),
+	      Arguments.of(new Circulo(5, "Azul"), Math.PI * 10)
+	    );
+	}
+}

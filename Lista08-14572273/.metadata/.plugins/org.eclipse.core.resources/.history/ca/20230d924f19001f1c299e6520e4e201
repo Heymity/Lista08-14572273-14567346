@@ -1,0 +1,10 @@
+package ex2;
+
+import org.junit.jupiter.api.Test;
+
+public class TestFatorialWindow {
+	@Test
+	public void test() {
+		
+	}
+}

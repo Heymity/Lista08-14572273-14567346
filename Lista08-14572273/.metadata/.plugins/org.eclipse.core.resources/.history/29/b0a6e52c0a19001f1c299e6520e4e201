@@ -1,0 +1,19 @@
+package ex3;
+import java.util.*;
+
+public class MulticonjuntoSet<T> extends HashSet<MulticonjuntoSet<T>.Wrapper> {
+	class Wrapper {
+		T element;
+		int multiplicity = 0;
+		
+		public Wrapper (T e, int m) {''
+			element = e;
+			this.multiplicity = m;
+		}
+	}
+	
+	@Override
+	public boolean add(T e) {
+		return super.add(e);
+    }
+}

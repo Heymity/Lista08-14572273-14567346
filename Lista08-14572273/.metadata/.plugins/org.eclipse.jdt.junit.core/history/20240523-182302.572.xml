@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MulticonjuntoAdapterTest" project="Lista08-14572273-NUSP2" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="ex4.MulticonjuntoAdapterTest" time="0.045" displayname="MulticonjuntoAdapterTest" uniqueid="[engine:junit-jupiter]/[class:ex4.MulticonjuntoAdapterTest]">
+    <testsuite name="testWorkingAsSet(ex4.MulticonjuntoAdapterTest)" time="0.045" displayname="testWorkingAsSet(MulticonjuntoAbstrato)" parameters="ex3.MulticonjuntoAbstrato" uniqueid="[engine:junit-jupiter]/[class:ex4.MulticonjuntoAdapterTest]/[test-template:testWorkingAsSet(ex3.MulticonjuntoAbstrato)]">
+      <testcase name="testWorkingAsSet" classname="ex4.MulticonjuntoAdapterTest" time="0.045" dynamicTest="true" displayname="[1] ex4.MulticonjuntoAdapter@3f191845" parameters="ex3.MulticonjuntoAbstrato" uniqueid="[engine:junit-jupiter]/[class:ex4.MulticonjuntoAdapterTest]/[test-template:testWorkingAsSet(ex3.MulticonjuntoAbstrato)]/[test-template-invocation:#1]"/>
+      <testcase name="testWorkingAsSet" classname="ex4.MulticonjuntoAdapterTest" time="0.001" dynamicTest="true" displayname="[2] ex4.MulticonjuntoAdapter@23941fb4" parameters="ex3.MulticonjuntoAbstrato" uniqueid="[engine:junit-jupiter]/[class:ex4.MulticonjuntoAdapterTest]/[test-template:testWorkingAsSet(ex3.MulticonjuntoAbstrato)]/[test-template-invocation:#2]"/>
+      <testcase name="testWorkingAsSet" classname="ex4.MulticonjuntoAdapterTest" time="0.002" dynamicTest="true" displayname="[3] ex4.MulticonjuntoAdapter@7486b455" parameters="ex3.MulticonjuntoAbstrato" uniqueid="[engine:junit-jupiter]/[class:ex4.MulticonjuntoAdapterTest]/[test-template:testWorkingAsSet(ex3.MulticonjuntoAbstrato)]/[test-template-invocation:#3]"/>
+      <testcase name="testWorkingAsSet" classname="ex4.MulticonjuntoAdapterTest" time="0.001" dynamicTest="true" displayname="[4] ex4.MulticonjuntoAdapter@660acfb" parameters="ex3.MulticonjuntoAbstrato" uniqueid="[engine:junit-jupiter]/[class:ex4.MulticonjuntoAdapterTest]/[test-template:testWorkingAsSet(ex3.MulticonjuntoAbstrato)]/[test-template-invocation:#4]"/>
+    </testsuite>
+  </testsuite>
+</testrun>

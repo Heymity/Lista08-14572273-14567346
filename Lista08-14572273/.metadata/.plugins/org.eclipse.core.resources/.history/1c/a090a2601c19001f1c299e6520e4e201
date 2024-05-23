@@ -1,0 +1,7 @@
+package ex4;
+
+public class MulticonjuntoAdapter<TMulticonjunto, TElement>, TMulticonjunto extends MulticonjuntoAbstrato {
+	
+	public TMulticonjunto
+
+}

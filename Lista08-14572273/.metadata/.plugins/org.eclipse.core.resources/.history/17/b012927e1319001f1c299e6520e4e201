@@ -1,0 +1,13 @@
+package ex3;
+
+import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.Test;
+
+public class MulticonjuntoTest {
+	@ParameterizedTest
+	@
+	public void test() {
+		
+	}
+}

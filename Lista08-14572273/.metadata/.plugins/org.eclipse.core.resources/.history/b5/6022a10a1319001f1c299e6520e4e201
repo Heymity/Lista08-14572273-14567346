@@ -1,0 +1,10 @@
+package ex3;
+
+import org.junit.jupiter.api.Test;
+
+public class MulticonjuntoTest {
+	@Test
+	public void test() {
+		assertEqual()
+	}
+}

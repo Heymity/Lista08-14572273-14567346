@@ -1,0 +1,11 @@
+package ex4;
+
+import ex3.MulticonjuntoAbstrato;
+
+public class MulticonjuntoAdapter<TMulticonjunto extends MulticonjuntoAbstrato<TElement>, TElement> extends Multiconjunto<TElement>{
+	
+	public TMulticonjunto multiConjunto;
+	
+	
+
+}

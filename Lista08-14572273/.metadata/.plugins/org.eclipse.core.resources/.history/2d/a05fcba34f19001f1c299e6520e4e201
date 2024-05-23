@@ -1,0 +1,29 @@
+package ex2;
+
+import javax.swing.JFrame;
+
+import org.junit.jupiter.api.*;
+
+import ex1.FatorialInterface;
+
+public class TestFatorialWindow {
+	JFrame frame;
+	
+	@BeforeAll
+	public void setup() {
+		frame = new FatorialInterface();
+		frame.setVisible(true);
+	}
+	
+	@AfterAll
+	public void cleanUp() {
+		frame.setVisible(false);
+	}
+	
+	@Test
+	public void test() {
+		
+	}
+	
+	
+}

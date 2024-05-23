@@ -1,0 +1,42 @@
+package ex2;
+
+import static org.junit.Assert.*;
+
+import javax.swing.*;
+
+import org.junit.jupiter.api.*;
+
+import ex1.FatorialInterface;
+
+public class TestFatorialWindow {
+	static JFrame frame;
+	static JTextField textField;
+	static JButton button;
+	static JLabel resultLabel;
+	
+	@BeforeAll
+	public static void setup() throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException {
+		frame = new FatorialInterface();
+		frame.setVisible(true);
+		
+		textField = (JTextField)TestFatorialWindow.class.getDeclaredField("textField").get(frame);
+		button = (JButton)TestFatorialWindow.class.getDeclaredField("button").get(frame);
+		resultLabel = (JLabel)TestFatorialWindow.class.getDeclaredField("resultLabel").get(frame);
+	}
+	
+	@AfterAll
+	public static void cleanUp() {
+		frame.setVisible(false);
+	}
+	
+	@Test
+	public void test() throws InterruptedException {
+		//textField.setText("5");
+		//button.doClick();
+		Thread.sleep(1000);
+		
+		assertEquals("120", resultLabel.getText());
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MulticonjuntoTest" project="Lista08-14572273-NUSP2" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="ex3.MulticonjuntoTest" time="0.042" displayname="MulticonjuntoTest" uniqueid="[engine:junit-jupiter]/[class:ex3.MulticonjuntoTest]">
+    <testsuite name="testAdd(ex3.MulticonjuntoTest)" time="0.042" displayname="testAdd(MulticonjuntoAbstrato)" parameters="ex3.MulticonjuntoAbstrato" uniqueid="[engine:junit-jupiter]/[class:ex3.MulticonjuntoTest]/[test-template:testAdd(ex3.MulticonjuntoAbstrato)]">
+      <testcase name="testAdd" classname="ex3.MulticonjuntoTest" time="0.042" dynamicTest="true" displayname="[1] ex3.MulticonjuntoSet@3ba987b8" parameters="ex3.MulticonjuntoAbstrato" uniqueid="[engine:junit-jupiter]/[class:ex3.MulticonjuntoTest]/[test-template:testAdd(ex3.MulticonjuntoAbstrato)]/[test-template-invocation:#1]"/>
+      <testcase name="testAdd" classname="ex3.MulticonjuntoTest" time="0.002" dynamicTest="true" displayname="[2] ex3.MulticonjuntoStack@1df8da7a" parameters="ex3.MulticonjuntoAbstrato" uniqueid="[engine:junit-jupiter]/[class:ex3.MulticonjuntoTest]/[test-template:testAdd(ex3.MulticonjuntoAbstrato)]/[test-template-invocation:#2]"/>
+      <testcase name="testAdd" classname="ex3.MulticonjuntoTest" time="0.001" dynamicTest="true" displayname="[3] ex3.MulticonjuntoArrayList@23941fb4" parameters="ex3.MulticonjuntoAbstrato" uniqueid="[engine:junit-jupiter]/[class:ex3.MulticonjuntoTest]/[test-template:testAdd(ex3.MulticonjuntoAbstrato)]/[test-template-invocation:#3]"/>
+      <testcase name="testAdd" classname="ex3.MulticonjuntoTest" time="0.002" dynamicTest="true" displayname="[4] ex3.MulticonjuntoLinkedList@7486b455" parameters="ex3.MulticonjuntoAbstrato" uniqueid="[engine:junit-jupiter]/[class:ex3.MulticonjuntoTest]/[test-template:testAdd(ex3.MulticonjuntoAbstrato)]/[test-template-invocation:#4]"/>
+    </testsuite>
+  </testsuite>
+</testrun>

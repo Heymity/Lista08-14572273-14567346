@@ -1,0 +1,27 @@
+package ex3;
+
+import static org.junit.Assert.*;
+
+import java.util.stream.Stream;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+public class MulticonjuntoTest {
+	@ParameterizedTest
+	@MethodSource("multiconjuntoProvider")
+	public void testAdd(MulticonjuntoAbstrato<Integer> c) {
+		assertTrue()
+	}
+	
+	private static Stream<MulticonjuntoAbstrato<Integer>> multiconjuntoProvider() {
+	    return Stream.of(
+	    		new MulticonjuntoSet<Integer>(),
+	    		new MulticonjuntoStack<Integer>(),
+	    		new MulticonjuntoArrayList<Integer>(),
+	    		new MulticonjuntoLinkedList<Integer>()
+	    );
+	}
+}
